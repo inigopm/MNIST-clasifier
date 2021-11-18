@@ -1,3 +1,7 @@
 pip install -r requirements.txt
-python main.py
-# CUDA_VISIBLE_DEVICES=2 python main.py  # to specify GPU id to ex. 2
+
+
+Train: python main.py
+Run the model: python predictor.py
+
+The model predicts the image saved in file cap.png
